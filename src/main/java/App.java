@@ -6,6 +6,7 @@ public class App {
             Browser browser = playwright.chromium().launch();
             Page page = browser.newPage();
             page.navigate("http://playwright.dev");
+            System.out.println("Teste Andre");
             System.out.println(page.title());
         }
     }
